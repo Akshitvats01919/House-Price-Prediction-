@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic House Price Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>🏠 House Price Prediction</h1>
+            <form id="predictionForm">
+                <label for="area">Enter House Area (sq ft):</label>
+                <input type="number" id="area" required>
+    
+                <label for="bedrooms">Number of Bedrooms:</label>
+                <input type="number" id="bedrooms" required>
+    
+                <label for="location">Location (City/Suburban/Rural):</label>
+                <input type="text" id="location" required>
+    
+                <button type="submit">🔮 Predict Price</button>
+            </form>
+            <div id="result"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
